@@ -148,7 +148,7 @@ usage or for seraching for memory induced errors. Switch it off for production, 
 #define XY_GANTRY
 #endif
 
-//Step to split a cirrcle in small Lines
+//Step to split a circle in small Lines
 #ifndef MM_PER_ARC_SEGMENT
 #define MM_PER_ARC_SEGMENT 1
 #define MM_PER_ARC_SEGMENT_BIG 3
