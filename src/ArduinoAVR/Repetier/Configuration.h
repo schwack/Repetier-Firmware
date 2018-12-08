@@ -1081,7 +1081,7 @@ Servos are controlled by a pulse width normally between 500 and 2500 with 1500ms
 WARNING: Servos can draw a considerable amount of current. Make sure your system can handle this or you may risk your hardware!
 */
 
-#define FEATURE_SERVO false
+#define FEATURE_SERVO true
 // Servo pins on a RAMPS board are 11,6,5,4
 #define SERVO0_PIN 11
 #define SERVO1_PIN 6
@@ -1186,7 +1186,7 @@ The following settings override uiconfig.h!
 14 = OpenHardware.co.za LCD2004 V2014
 15 = Sanguinololu + Panelolu2
 */
-#define FEATURE_CONTROLLER 0
+#define FEATURE_CONTROLLER 2
 
 /**
 Select the language to use.
@@ -1200,11 +1200,11 @@ Select the language to use.
 7 = French
 8 = Czech
 */
-#define UI_LANGUAGE 1
+#define UI_LANGUAGE 0
 
 // This is line 2 of the status display at startup. Change to your like.
-#define UI_PRINTER_NAME "Ordbot"
-#define UI_PRINTER_COMPANY "RepRapDiscount"
+#define UI_PRINTER_NAME "spazbot"
+#define UI_PRINTER_COMPANY "schwackmaster"
 
 
 /** Animate switches between menus etc. */
